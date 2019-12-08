@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Darren Chang - McDonald's HW 2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/final.css">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+  <div class="container">
+    <div class="row" style="padding-top:20px;padding-bottom:5px">
+      <div class="col">
+        <h1>Airbnb New York City Analysis</h1>
+      </div>
+    </div>
+
+    <ul class="topnav">
+      <li><a href="http://acsweb.ucsd.edu/~djc035/Final/index.html">Introduction</a></li>
+      <li><a class="active" href="http://acsweb.ucsd.edu/~djc035/Final/data_viz.html">Data Visualizations and Insights</a></li>
+      <li><a href="http://acsweb.ucsd.edu/~djc035/Final/writeup.html">Write-up</a></li>
+    </ul>
+
+    <br>
+    <center><h2>Data Visualizations and Insights</h2></center>
+    <br>
+
+    <article>
+    <section class="side">
+        <div class="card" style="width:1108px">
+          <br>
+           <h4 class="card-title">Price Average per Neighborhood Groups</h4>
+          <br>
+            <center>
+              <iframe title="Pirice per Region (Copy)" aria-label="USA new york city boroughs choropleth map" id="datawrapper-chart-XJevk" src="//datawrapper.dwcdn.net/XJevk/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+            </center>
+          
+          <div class="card-body">
+            <p class="card-text" style="width:900px;padding-left:160px;text-align:left">&emsp;&emsp; This map chart of New York City is grouped by different neighborhoods: Manhattan, Brooklyn, Queens, Staten Island, and Bronx. From the map we can clearly see that Manhattan has the highest prices for Airbnbs.
+            <br>
+            <br>
+            Insight: Clear price difference between each neighborhood group.
+            </p>
+          </div>
+       </div>
+    </section>
+    </article>
+
+    <article>
+    <section class="side">
+        <div class="card" style="width:1108px">
+          <br>
+           <h4 class="card-title">Price Average per Neighborhood</h4>
+          <br>
+            <center>
+              <iframe title="[ Insert title here ]" aria-label="USA new york city neighborhoods (ntas) choropleth map" id="datawrapper-chart-hZ4b8" src="//datawrapper.dwcdn.net/hZ4b8/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+            </center>
+          
+          <div class="card-body">
+            <p class="card-text" style="width:900px;padding-left:160px;text-align:left">&emsp;&emsp; This map chart of New York City is seperated by the different neighborhoods. We see interesting results from this chart that we didn't expect. Some neighborhoods have missing data so they are grayed out. 
+            <br>
+            Insight: We see that Brooklyn Heights and Cobble Hill have a high average price comapred to all other neighborhoods.
+            </p>
+            <br>
+          </div>
+       </div>
+    </section>
+    </article>
+
+    <article>
+    <section class="side">
+        <div class="card" style="width:1108px">
+          <br>
+           <h4 class="card-title"></h4>
+          <br>
+          </a>
+            <center><img id="image" class="shadow mb-4" src="images/dataviz_5.png" align="middle" width="530" height="275"></center>
+            <p class="card-text" style="width:800px;padding-left:280px;text-align:left">Figure 5: Line graph of daily sales 
+              of Fish Fillet in the South West region from January 2016. Vertical blue lines indicate a Friday.
+            </p>
+            <br>
+            <center><img id="image" class="shadow mb-4" src="images/dataviz_6.png" align="middle" width="530" height="275"></center>
+            <p class="card-text" style="width:800px;padding-left:280px;text-align:left">Figure 6: Line graph of daily sales 
+              of Fish Fillet in all regions from January 2016. Vertical blue lines indicate a Friday.
+            </p>
+            <br>
+          
+          <div class="card-body">
+            <p class="card-text" style="width:900px;padding-left:160px;text-align:left">&emsp;&emsp; Figure 5 shows the daily sales for Fish Fillet in the South West region from the month of January 2016. The vertical blue lines are used to indicate the Fridays of the month. There is a spike in sales for Fish Fillet every Friday. To validate this trend I checked this across all our regions and there was a similar spike in all other regions on Fridays as well, Figure 6 shows this.
+            <br>
+            &emsp;&emsp; Insight: Fish Fillets are very popular on Fridays. We can use this to our advantage we need to find the root cause for 
+            this trend and try to extend it to other days. 
+            </p>
+            <br>
+          </div>
+       </div>
+    </section>
+    </article>
+
+  </div>
+
+  <br>
+  <p> </p>
+  <br>
+
+  <div class="row fixed-row-bottom">
+    <div id="footer" class="col">
+      <footer style="padding-left:50px; color:white;">
+        Darren Chang and Nayoung Park &copy; Fall 2019 DSC 106
+      </footer>
+    </div>
+  </div>
+
+</body>
+</html>
