@@ -1,0 +1,6 @@
+,id,name,host_id,host_name,neighbourhood_group,neighbourhood,latitude,longitude,room_type,price,minimum_nights,number_of_reviews,last_review,reviews_per_month,calculated_host_listings_count,availability_365
+1906,903972.0,Great Bedroom in Manhattan,4734398.0,Jj,Manhattan,Central Harlem North-Polo Grounds,40.82085,-73.94025,Private room,49.0,1.0,607.0,2019-06-21,7.75,3.0,293.0
+1905,903947.0,Beautiful Bedroom in Manhattan,4734398.0,Jj,Manhattan,Central Harlem North-Polo Grounds,40.82124,-73.93838,Private room,49.0,1.0,597.0,2019-06-23,7.72,3.0,342.0
+1892,891117.0,Private Bedroom in Manhattan,4734398.0,Jj,Manhattan,Central Harlem North-Polo Grounds,40.82264,-73.94041,Private room,49.0,1.0,594.0,2019-06-15,7.57,3.0,339.0
+217,58059.0,PRIVATE Room on Historic Sugar Hill,277379.0,Agnes,Manhattan,Central Harlem North-Polo Grounds,40.8251,-73.94287,Private room,60.0,1.0,458.0,2019-07-03,4.58,2.0,258.0
+1121,506121.0,Cozy Room in Lively East Village,2267153.0,John,Manhattan,East Village,40.7276,-73.98347,Private room,72.0,5.0,451.0,2019-06-30,5.26,2.0,13.0
